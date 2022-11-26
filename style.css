@@ -30,3 +30,84 @@ header nav ul{
     align-items: center;
     margin: 1rem;
 }
+
+
+main{
+    max-width: 100vw;
+    height: 75vh;
+    background-color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -5rem;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.title{
+    text-transform: capitalize;
+    width: 15rem;
+    font-size: 2.5rem;
+    margin: 1rem 0 1rem 2rem;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 200;
+}
+
+.profile-img{
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color: white;
+    color: #222;
+    border-radius: 50%;
+
+}
+
+.search-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:relative; 
+}
+
+.search-bar{
+    width:30rem;
+    height: 1.9rem;
+    background-color: #333;
+    border: 0.5px solid #555;
+    border-radius: 2rem;
+    color:#fff;
+    padding-left: 2rem;
+}
+
+.fa-magnifying-glass{
+    position: absolute;
+    top:8px;
+    left:10px;
+}
+
+.fa-camera{
+    position: absolute;
+    top:8px;
+    right:10px;
+    /* background-color:linear-gradient(-120deg, #4285f4, #34a853, #fbbc05, #ea4335); */
+}
+
+.fa-microphone{
+    position: absolute;
+    top:8px;
+    right:40px;
+    /* color:linear-gradient(-120deg, #4285f4, #34a853, #fbbc05, #ea4335); */
+}
+.btn{
+    padding: 0.5rem 0.7rem;
+    margin: 1rem 0.2rem;
+    background-color: #444;
+    color: #fff;
+    border: none;
+    border-radius: 0.3rem;
+}
