@@ -111,3 +111,40 @@ main{
     border: none;
     border-radius: 0.3rem;
 }
+
+.language{
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.language a{
+    text-decoration: none;
+    color: skyblue;
+}
+
+footer{
+    background-color: #555;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.regin{
+    text-transform: capitalize;
+    background-color: #222;
+    padding: 0.7rem 1.5rem;
+}
+
+.footer-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1px;
+    background-color: #222;
+    padding: 0.7rem 1.5rem;
+}
+
+.flex-container{
+    display: flex;
+    gap:1.5rem;
+}
